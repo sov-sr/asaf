@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Av. Mehmet Turgut - Hukuk Bürosu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigasyon -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">avukat-mturgut.com</div>
+            <ul class="nav-menu">
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#uzmanlik">Uzmanlık Alanları</a></li>
+                <li><a href="#vakalar">Vakalar</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Anasayfa Başlığı -->
+    <section id="anasayfa" class="hero">
+        <div class="container">
+            <h1>Av. Mehmet Turgut</h1>
+            <p class="subtitle">Profesyonel Hukuk Danışmanı</p>
+            <p class="tagline">Kayseri'de güvenilir hukuki çözümler sunmakta</p>
+        </div>
+    </section>
+
+    <!-- Profil Bölümü -->
+    <section id="profil" class="profile-section">
+        <div class="container">
+            <h2>Hakkımızda</h2>
+            <div class="profile-content">
+                <p>Av. Mehmet Turgut, Kayseri'de faaliyet gösteren deneyimli bir hukuk müşaviridir. Müşterilerine en yüksek düzeyde hukuki danışmanlık hizmeti sunmak için kendisini adanmıştır. Birçok başarılı davayı yürüterek, müşteri memnuniyetini ön planda tutmaktadır.</p>
+                <p>ASAF Hukuk Bürosu olarak, her türlü hukuki sorunda size rehberlik etmek için hazırız.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uzmanlık Alanları -->
+    <section id="uzmanlik" class="expertise-section">
+        <div class="container">
+            <h2>Uzmanlık Alanları</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3>Aile Hukuku</h3>
+                    <p>Boşanma, nafaka, velayet ve miras davalarında uzman danışmanlık</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Ticari Hukuk</h3>
+                    <p>Şirket hukuku, sözleşme hazırlama ve ticari uyuşmazlıklar</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>İş Hukuku</h3>
+                    <p>İş sözleşmeleri, tazminat davalarını ve işçi hakları konularında destek</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Gayrimenkul Hukuku</h3>
+                    <p>Taşınmaz mal satışı, kira uyuşmazlıkları ve tapulu işlemler</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>İdari Hukuk</h3>
+                    <p>İdari işlemler, vergi davalarında temsil ve danışmanlık</p>
+                </div>
+                <div class="expertise-card">
+                    <h3>Ceza Hukuku</h3>
+                    <p>Ceza davalarında müvekkilleri temsil ve savunma stratejileri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vakalar Bölümü -->
+    <section id="vakalar" class="cases-section">
+        <div class="container">
+            <h2>Başarılı Vakalar</h2>
+            
+            <!-- Filtreleme -->
+            <div class="filter-section">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="aile">Aile Hukuku</button>
+                <button class="filter-btn" data-filter="ticari">Ticari Hukuk</button>
+                <button class="filter-btn" data-filter="is">İş Hukuku</button>
+                <button class="filter-btn" data-filter="gayrimenkul">Gayrimenkul</button>
+                <button class="filter-btn" data-filter="ceza">Ceza Hukuku</button>
+            </div>
+
+            <!-- Vaka Kartları -->
+            <div class="cases-grid">
+                <div class="case-card" data-category="aile">
+                    <h3>Velayet Davası - Başarılı Sonuç</h3>
+                    <p class="case-date">2024</p>
+                    <p>Karmaşık velayet durumunda müvekkil lehine olumlu karar alındı. Çocuk ve aile hukuku konusundaki uzmanlığımız önemli rol oynadı.</p>
+                    <span class="badge">Aile Hukuku</span>
+                </div>
+
+                <div class="case-card" data-category="ticari">
+                    <h3>Ticari Uyuşmazlık - Sözleşme İhtilaflı</h3>
+                    <p class="case-date">2024</p>
+                    <p>Iki şirket arasında yaşanan sözleşme uyuşmazlığında müvekkil için uygun çözüm sağlandı. Karşı tarafla anlaşmaya varılmıştır.</p>
+                    <span class="badge">Ticari Hukuk</span>
+                </div>
+
+                <div class="case-card" data-category="is">
+                    <h3>İşe İade Davası - Kazanıldı</h3>
+                    <p class="case-date">2023</p>
+                    <p>Haksız fesih nedeniyle açılan davada müvekkil işe iade edilerek ödeme almış ve hakı aranmıştır.</p>
+                    <span class="badge">İş Hukuku</span>
+                </div>
+
+                <div class="case-card" data-category="gayrimenkul">
+                    <h3>Gayrimenkul Satışı - Hukuki İşlemler</h3>
+                    <p class="case-date">2023</p>
+                    <p>Taşınmaz mal satışında tüm hukuki prosedürler sağlanarak güvenli işlem gerçekleştirilmiştir.</p>
+                    <span class="badge">Gayrimenkul</span>
+                </div>
+
+                <div class="case-card" data-category="ceza">
+                    <h3>Ceza Davası - Beraat Kararı</h3>
+                    <p class="case-date">2023</p>
+                    <p>Müvekkil aleyhine açılan ceza davasında ikna edici savunma sunularak beraat kararı alındı.</p>
+                    <span class="badge">Ceza Hukuku</span>
+                </div>
+
+                <div class="case-card" data-category="aile">
+                    <h3>Nafaka Düzenlemesi - Adil Çözüm</h3>
+                    <p class="case-date">2022</p>
+                    <p>Nafaka uyuşmazlığında her iki tarafın da menfaatini koruyan adil bir düzenleme sağlanmıştır.</p>
+                    <span class="badge">Aile Hukuku</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Formu -->
+    <section id="iletisim" class="contact-section">
+        <div class="container">
+            <h2>İletişim Bilgileri</h2>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>ASAF Hukuk Bürosu</h3>
+                    <p><strong>Avukat:</strong> Av. Mehmet Turgut</p>
+                    <p><strong>Adres:</strong> Fatih mah. İstasyon cad. Özger ağt. 32/1 Kocasinan / Kayseri</p>
+                    <p><strong>Telefon (Sabit Hatt):</strong> +90 (352) 220 04 05</p>
+                    <p><strong>Cep Telefonu:</strong> +90 544 944 81 01</p>
+                    <p><strong>Email:</strong> mturgut-38@hotmail.com</p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h3>Bize Mesaj Gönderin</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Adınız Soyadınız</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Adresiniz</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefon Numaranız</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Seçiniz...</option>
+                            <option value="aile">Aile Hukuku</option>
+                            <option value="ticari">Ticari Hukuk</option>
+                            <option value="is">İş Hukuku</option>
+                            <option value="gayrimenkul">Gayrimenkul Hukuku</option>
+                            <option value="idari">İdari Hukuk</option>
+                            <option value="ceza">Ceza Hukuku</option>
+                            <option value="diger">Diğer</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Gönder</button>
+                    <p class="form-note" id="formNote" style="display:none;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Av. Mehmet Turgut - ASAF Hukuk Bürosu. Tüm hakları saklıdır.</p>
+            <p>Fatih mah. İstasyon cad. Özger ağt. 32/1 Kocasinan / Kayseri</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
